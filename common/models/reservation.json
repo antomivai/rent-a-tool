@@ -1,0 +1,28 @@
+{
+  "name": "Reservation",
+  "plural": "Reservations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "tool_id": {
+      "type": "string",
+      "required": true
+    },
+    "rental_rate": {
+      "type": "number"
+    },
+    "rental_start_date": {
+      "type": "date"
+    },
+    "duration": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

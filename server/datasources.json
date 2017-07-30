@@ -1,0 +1,11 @@
+{
+  "db": {
+    "url": "https://antomivai@yahoo.com@39135c36-1be4-4876-bf84-439f060776d5-bluemix.cloudant.com",
+    "database": "rent-a-tool-cloudantNoSQLDB",
+    "username": "antomivai@yahoo.com",
+    "password": "",
+    "name": "db",
+    "modelIndex": "",
+    "connector": "cloudant"
+  }
+}

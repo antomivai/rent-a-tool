@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: rent-a-tool
+  host: rent-a-tool
+  disk_quota: 1024M
+  services:
+  - rent-a-tool-cloudantNoSQLDB
